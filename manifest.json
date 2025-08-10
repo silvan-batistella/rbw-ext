@@ -1,0 +1,43 @@
+{
+    "name": "Bitwarden Ulauncher Extension",
+    "description": "Extensão do Ulauncher para Bitwarden",
+    "version": "0.1.0",
+    "developer_name": "Silvan S. Batistella",
+    "license": "MIT",
+    "icon": "images/bitwarden.png",
+    "required_api_version": "2",
+    "options": {
+        "query_debounce": 0.1
+    },
+    "preferences": [
+    {
+        "id": "main_kw",
+        "type": "keyword",
+        "name": "Keyword de busca",
+        "description": "Palavra para iniciar a extensão no Ulauncher (ex: 'bw')",
+        "default_value": "bw"
+    },
+    {
+        "id": "sync_kw",
+        "type": "keyword",
+        "name": "Keyword para sincronizar",
+        "description": "Sincronização do cofre (ex: 'sync')",
+        "default_value": "sync"
+    },
+    {
+        "id": "lock_kw",
+        "type": "keyword",
+        "name": "Keyword para bloquear",
+        "description": "Bloquear o cofre (ex: 'lock')",
+        "default_value": "lock"
+    },
+    {
+        "id": "unlock_kw",
+        "type": "keyword",
+        "name": "Keyword para desbloquear",
+        "description": "Desbloquear o cofre (ex: 'unlock')",
+        "default_value": "unlock"
+    }
+]
+
+}
